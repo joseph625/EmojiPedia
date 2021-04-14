@@ -3,11 +3,11 @@ import emojiPedia from '../emojipedia'
 
 function App() {
     return (<div>
-    <h1> <span>emoji pedia</span></h1> 
+    <h1>emoji pedia</h1> 
      
     <dl className="dictionary">
 
-      {emojiPedia.map(emo =>(//>> () returne nawe
+      {emojiPedia.map(emo =>(
            <Entry 
               id={emo.id}
               key={emo.id}
