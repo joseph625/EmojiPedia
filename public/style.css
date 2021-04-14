@@ -1,0 +1,76 @@
+body{
+    color: #555;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.666;
+    background-color: #c0d2d4;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 4rem;
+    color: #fff;
+    line-height: 1.2;
+    width: 100%;
+}
+
+h1 span{
+    background-color: #2ec2b0;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.dictionary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.term{
+    height: 500px;
+    color: #2ec2b0;
+    background-color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-bottom: 80px;
+    transition: all 100ms ease-in-out;
+    max-width: 30rem;
+    margin: 60px 20px 0 20px;
+    border-radius: 30px;
+    
+}
+
+.emoji{
+    font-size: 7rem;
+    text-align: center;
+}
+
+dt span{
+    color: #2ec2b0;
+    font-size: 2rem;
+    display: block;
+}
+
+dd{
+    margin: 0;
+}
+
+@media only screen and (max-width: 560px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    .term{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
